@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Semester Project">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Jacob Benson">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_1.css">
+    <style>
+        html {
+            background-color: rgb(255, 255, 255);
+        }
+        h1 {
+            background-image: url(bannerphoto.jpg);
+            height: 100px;
+            /* opacity: 70%; */
+            padding-top: 20px;
+            position: relative;
+        }
+        /* h1::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.7);
+            pointer-events: none;
+        } */
+        .photo-container {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+        .photo {
+            flex: 1;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1><a href="index.html" style="text-decoration: none; color: black; display: block; height: 100%;">L&W Clothing</a></h1>
+    </header>
+    <ul>
+        <li class="nav">
+            <a href="#shop" class="drpdwn">Shop &#8744;</a>
+            <div class="drpdwnbttn">
+                <a href="shop.html">Shop All</a>
+                <a href="#">Men</a>
+                <a href="#">Women</a>
+                <a href="#">Children</a>
+            </div>
+        </li>
+        <li class="nav">
+            <a href="#follow" class="drpdwn">Follow Us &#8744;</a>
+            <div class="drpdwnbttn">
+                <a href="https://www.instagram.com/l.and.w.clothin/" target="_blank">Instagram</a>
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">Tik-tok</a>
+            </div>
+        </li>
+        <li><a href="about.html">About</a></li>
+    </ul>
+    <hr>
+    <p>
+        L&W Clothing began in the fall of 2023. 
+        We created L&W named after our two bloodhounds, Lani and Waylon.
+    </p>
+    <p>
+        Drawing inspiration from Lani and Waylon, a bloodhound is a sophisticated breed that makes a true companion.
+        L&W strives to create a southern-inspired brand that provides comfort and durability.
+        L&W will become a loved brand, a true companion.
+    </p>
+
+    <!-- Origin Story Section -->
+    <section>
+        <h2>Our Story</h2>
+        <p>
+            L&W Clothing was born out of a love story and a shared passion for authenticity and companionship. In the fall of 2023, Jacob Benson and Anna Hays embarked on a journey to create a brand that would not only reflect their Southern roots but also celebrate the unwavering companionship of their two beloved bloodhounds, Lani and Waylon.
+        </p>
+
+        <h3>The Inspiration: Lani and Waylon</h3>
+        <p>
+            Lani and Waylon, the heartbeat of our brand, are more than just pets; they are family. As bloodhounds, known for their loyalty and gentle demeanor, Lani and Waylon embody the spirit of true companionship. Their keen sense of smell may lead them on adventures, but it's their warm presence and love that inspire everything we do.
+        </p>
+
+        <h3>Southern Sophistication and Comfort</h3>
+        <p>
+            Guided by the sophistication of the bloodhound breed and the comfort they provide, L&W Clothing is a tribute to Southern living. We believe in creating a brand that not only offers stylish and durable apparel but also captures the essence of a comforting companion—a brand that becomes a part of your journey, wherever life may take you.
+        </p>
+
+        <h3>Crafting a Loved Brand</h3>
+        <p>
+            L&W Clothing is more than just a label; it's a narrative woven with threads of love, passion, and authenticity. From the initial concept to the final stitch, each garment is a testament to the values we hold dear. We strive to be more than a clothing brand; we aim to be a companion in your everyday adventures, just like Lani and Waylon.
+        </p>
+
+        <p>Join us on this journey, where style meets companionship, and every piece tells a story.</p>
+    </section>
+
+    <div class="photo-container">
+        <div class="photo">
+            <img src="photo1.JPG" alt="Photo 1">
+        </div>
+        <div class="photo">
+            <img src="lanipup.jpg" alt="Photo 2">
+        </div>
+        <div class="photo">
+            <img src="lani2.jpg" alt="Photo 3">
+        </div>
+    </div>
+</body>
+</html>
