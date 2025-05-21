@@ -23,7 +23,7 @@
 
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link" href="about.html">About Me</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
           <li class="nav-item"><a class="nav-link" href="socials.html">Socials</a></li>
           <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
         </ul>
@@ -42,7 +42,7 @@
 
       <div class="row justify-content-center">
         <div class="col-md-8">
-          <form action="sendmail.php" method="POST" class="bg-light p-4 shadow rounded">
+         <form action="https://jacob-backend-mail.onrender.com" method="POST">
             <div class="mb-3">
               <label class="form-label">Your Name</label>
               <input type="text" name="name" class="form-control" required />
@@ -96,7 +96,6 @@
     `;
   }
 
-  // Optional: Clear status param from URL after displaying the alert
   if (status) {
     history.replaceState({}, document.title, window.location.pathname);
   }
